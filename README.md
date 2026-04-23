@@ -4,11 +4,11 @@ Bootcamp cybersec Riachuelo
 
 Este projeto foi desenvolvido como parte de um desafio prático da **DIO**, com o objetivo de entender o funcionamento técnico de ameaças digitais como **Ransomwares** e **Keyloggers** para fortalecer estratégias de defesa.
 
-> ⚠️ **AVISO DE SEGURANÇA:** Este código foi criado estritamente para fins educacionais em ambiente controlado. O uso malintencionado de técnicas de hacking é ilegal e antiético.
+> **AVISO DE SEGURANÇA:** Este código foi criado estritamente para fins educacionais em ambiente controlado. O uso malintencionado de técnicas de hacking é ilegal e antiético.
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 * `ransomware_sim.py`: Script que demonstra a criptografia e descriptografia de arquivos.
 * `keylogger_sim.py`: Script que captura teclas digitadas e salva em um log local.
@@ -16,14 +16,14 @@ Este projeto foi desenvolvido como parte de um desafio prático da **DIO**, com 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **Linguagem:** Python 3.x
 * **Bibliotecas:** * `cryptography` (Fernet) para o Ransomware.
     * `pynput` para captura de teclado no Keylogger.
 
 ---
 
-## 🚀 Demonstração dos Scripts
+##  Demonstração dos Scripts
 
 ### 1. Ransomware Simulado
 O script utiliza a biblioteca `cryptography` para gerar uma chave simétrica, criptografar arquivos de texto e, posteriormente, realizar a reversão (descriptografia).
